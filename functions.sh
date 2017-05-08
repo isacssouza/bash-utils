@@ -1,3 +1,7 @@
+function color() {
+	grep -E "^|$1";
+}
+
 function findaws() {
     pattern=$1
 
